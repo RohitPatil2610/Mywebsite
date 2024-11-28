@@ -1,26 +1,112 @@
-<html>
-<body>
-<h1 style="background-color:SkyBlue;">Create And Develop Blog </h1>
-<p>
-<h1> Title: Steps for creating and developing a blog </h1>
-<h2> Step 1 : Planning and Strategy - </h2>
-<h4> In this step niche of the blog and goal of blog will be decide .</h4>
-<h2> Step 2 : Platform and Hosting - </h2>
-<h4>Selection of blogging platform and choosing hosting plans. </h4>
-<h2> Step 3 : Domain Name and Branding - </h2>
-<h4>Selecting domain Name according to the blog niche and branding of the blog.</h4>
-<h2> Step 4 : Blog Design and Layout - </h2>
-<h4>blog design contains look of the blog framewok and its layout.</h4>
-<h2> Step 5 : Content Creation - </h2>
-<h4>collectng the content and blog writing according to topic.</h4>
-<h2> Step 6 : Publishing and Promotion - </h2>
-<h4>publishing the blog and promotion of blog on different platforms.</h4>
-<h2> Step 7 : Analytics and Optimization - </h2>
-<h4>analysis of the blog using tools .</h4>
-<h2> Step 8 : Mentainance and Updates- </h2>
-<h4>maintainig the blog creation according to niche and and publishing blog in frequent time. </h4>
-<h2> Step 9 : Community Engagement - </h2>
-<h4>understanding community interest and posting intersted content.</h4>
-</p>
-</body>
-</html>
+    <html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>styled form</title>
+        <link rel="stylesheet"href="style.css">
+    </head>
+    <body>
+        <h1>Simple Form with Styled Inputs</h1>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text"id="username"name="username"placeholder="Enter your username"required><br><br>
+            <label for="full name">Full name:</label>
+            <input type="text"id="full name"name="full name"placeholder="Enter your full name"required><br><br>
+            <label for="email">Email:</label>
+            <input type="email"id="email"name="email"placeholder="Enter your email"required><br><br>
+            <label>
+        <input type="checkbox"name="subscribe"checked>subscribe to newsletter</label><br><br>
+                <p>choose your gender:</p>
+                <label>
+                    <input type="radio"name="gender"value="male">
+                    male</label>
+                    <label>
+                <input type="radio"name="gender"value="female">
+                Female</label>
+                <label>
+                    <input type="radio"name="gender"value="other">
+                    other</label>
+                <p>choose your favourite color:</p>
+                <label>
+                    <input type="radio"name="color"value="pink">
+                    pink</label>
+                    <label>
+                <input type="radio"name="color"value="yellow">
+                yellow</label>
+                <label>
+                    <input type="radio"name="color"value="other">    
+                other</label><br><br>
+                <label for="country">Country:</label>
+                <select id="country"name="Country">
+                    <option value="usa">USA</option>
+                    <option value="india"selected>India</option>
+                    <option value="uk">Uk</option>
+                    </select>
+                    <button type="submit">Register</button>
+
+                </form>
+            </body>
+    </html>
+
+form {
+    width: 25%;
+    margin: auto;
+    padding: 100px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color:rgb(115, 190, 233);
+    box-shadow:skyblue;
+     
+}
+[type="text"]
+{
+    width:100%;
+    padding:18px;
+    margin: 10px 0;
+    border: 10px salmon;
+    border-radius: 4px;
+    background-color:whitesmoke;
+
+}
+input[type="email"]
+{
+    width:100%;
+    padding:18px;
+    margin: 20px 0;
+    border: 10px salmon;
+    border-radius: 4px;
+    background-color:whitesmoke;
+}
+input[type="checkbox"]{
+accent-color:#28a745;
+}
+input[type="radio"]{
+    accent-color:#dc3545;
+    padding: 20px;
+}
+select {
+    width:100%;
+    padding:18px;
+    margin: 20px 0;
+    border: 10px salmon;
+    border-radius: 4px;
+    background-color:aliceblue;
+}
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0056b3;
+}
+
+
+ 
+
